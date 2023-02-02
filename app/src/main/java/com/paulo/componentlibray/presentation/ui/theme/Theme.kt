@@ -1,4 +1,4 @@
-package com.paulo.componentlibray.ui.theme
+package com.paulo.componentlibray.presentation.ui.theme
 
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material.MaterialTheme

@@ -1,4 +1,4 @@
-package com.paulo.componentlibray.ui.theme
+package com.paulo.componentlibray.presentation.ui.theme
 
 import androidx.compose.material.Typography
 import androidx.compose.ui.text.TextStyle
