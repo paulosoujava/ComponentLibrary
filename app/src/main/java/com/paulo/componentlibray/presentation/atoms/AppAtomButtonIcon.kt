@@ -4,7 +4,7 @@ import androidx.compose.foundation.background
 import androidx.compose.material.IconButton
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
-import com.paulo.componentlibray.core.AppColorBehavior
+import com.paulo.componentlibray.behaviors.AppColorBehavior
 
 @Composable
 fun AppButtonIcon(
@@ -15,8 +15,7 @@ fun AppButtonIcon(
 ) {
     IconButton(
         onClick = onClick,
-        modifier = modifier.background(behavior.color)
-    ) {
-        slot()
-    }
+        modifier = modifier.background(behavior.color),
+        content = slot
+    )
 }

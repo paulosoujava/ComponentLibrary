@@ -4,7 +4,7 @@ import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.style.TextAlign
-import com.paulo.componentlibray.core.AppTextBehavior
+import com.paulo.componentlibray.behaviors.AppTextBehavior
 
 
 @Composable
@@ -18,7 +18,6 @@ fun AppText(
         text = label,
         modifier = modifier,
         textAlign = textAlign,
-        color = behavior.color,
-        fontSize = behavior.fontSize
+        style = behavior.style
     )
 }

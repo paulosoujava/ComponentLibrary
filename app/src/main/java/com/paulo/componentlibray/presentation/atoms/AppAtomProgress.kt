@@ -6,7 +6,7 @@ import androidx.compose.material.CircularProgressIndicator
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
-import com.paulo.componentlibray.core.AppColorBehavior
+import com.paulo.componentlibray.behaviors.AppColorBehavior
 
 
 @Composable

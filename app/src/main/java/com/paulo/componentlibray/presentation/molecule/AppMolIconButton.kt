@@ -1,8 +1,8 @@
 package com.paulo.componentlibray.presentation.molecule
 
 import androidx.compose.runtime.Composable
-import com.paulo.componentlibray.core.AppColorBehavior
-import com.paulo.componentlibray.core.AppIconBehavior
+import com.paulo.componentlibray.behaviors.AppColorBehavior
+import com.paulo.componentlibray.behaviors.AppIconBehavior
 import com.paulo.componentlibray.presentation.atoms.AppButtonIcon
 import com.paulo.componentlibray.presentation.atoms.AppIcon
 import com.paulo.componentlibray.presentation.atoms.AppProgress

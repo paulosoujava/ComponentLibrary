@@ -1,4 +1,4 @@
-package com.paulo.componentlibray.core
+package com.paulo.componentlibray.behaviors
 
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.ArrowBack

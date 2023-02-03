@@ -4,7 +4,7 @@ import androidx.compose.material.Icon
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
-import com.paulo.componentlibray.core.AppIconBehavior
+import com.paulo.componentlibray.behaviors.AppIconBehavior
 import com.paulo.componentlibray.presentation.ui.theme.white
 
 @Composable

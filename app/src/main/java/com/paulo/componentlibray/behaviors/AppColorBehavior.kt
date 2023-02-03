@@ -1,4 +1,4 @@
-package com.paulo.componentlibray.core
+package com.paulo.componentlibray.behaviors
 
 import androidx.compose.ui.graphics.Color
 import com.paulo.componentlibray.presentation.ui.theme.disabledColor
