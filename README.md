@@ -40,3 +40,11 @@ TemplateLoginTablet, TemplateLoginMobile etc...
 ## Page
 E seguindo vamos para as PAGES, que serão as nossas páginas, aqui você desenha a sua
 pagina, pode usar os Cards, Columns, Organisms, moleculas, atoms...
+
+!!Observação
+A aplicabilidade dele se asemelha ao design pattern Abstract Factory, que é um padrão de projeto criacional onde permite que você produza famílias de objetos relacionados sem ter que especificar suas classes concretas. Porém como estamos falando de funcões compostas, poderiamos compara-las as classes 
+concretas, onde o nosso enum fara o papel das fabricas, gerando os estilos (familias)...
+
+
+<img src="https://raw.githubusercontent.com/paulosoujava/ComponentLibrary/main/app/src/main/res/drawable/design%20atomic.png" width="648">
+
