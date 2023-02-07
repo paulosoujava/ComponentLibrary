@@ -1,18 +1,16 @@
-package com.paulo.componentlibray.presentation.atoms
+package com.paulo.componentlibray.presentation.atoms.cards
 
 import androidx.compose.foundation.BorderStroke
 import androidx.compose.material.Card
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.unit.Dp
-import androidx.compose.ui.unit.dp
-import com.paulo.componentlibray.behaviors.AppCardBehavior
-import com.paulo.componentlibray.behaviors.AppColorBehavior
+import com.paulo.componentlibray.presentation.atoms.cards.AppCardBehavior
+import com.paulo.componentlibray.presentation.ui.theme.AppColorBehavior
 
 @Composable
 fun AppAtomCard(
     modifier: Modifier,
-    appCardBehavior:AppCardBehavior,
+    appCardBehavior: AppCardBehavior,
     appColorBehavior: AppColorBehavior,
     content: @Composable () -> Unit
 ) {

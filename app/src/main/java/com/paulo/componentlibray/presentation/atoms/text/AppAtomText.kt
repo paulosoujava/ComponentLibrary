@@ -1,10 +1,10 @@
-package com.paulo.componentlibray.presentation.atoms
+package com.paulo.componentlibray.presentation.atoms.text
 
 import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.style.TextAlign
-import com.paulo.componentlibray.behaviors.AppTextBehavior
+import com.paulo.componentlibray.presentation.atoms.text.AppTextBehavior
 
 
 @Composable

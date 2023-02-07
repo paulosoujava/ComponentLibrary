@@ -1,4 +1,4 @@
-package com.paulo.componentlibray.presentation.atoms
+package com.paulo.componentlibray.presentation.atoms.progress
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.size
@@ -6,7 +6,7 @@ import androidx.compose.material.CircularProgressIndicator
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
-import com.paulo.componentlibray.behaviors.AppColorBehavior
+import com.paulo.componentlibray.presentation.ui.theme.AppColorBehavior
 
 
 @Composable

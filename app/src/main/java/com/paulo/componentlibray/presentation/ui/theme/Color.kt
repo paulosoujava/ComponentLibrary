@@ -23,3 +23,15 @@ val primaryDarkColor = Color(0xFFbb4d00)
 val primaryTextColor = Color(0xFF000000)
 
 val transparent = Color.Transparent
+
+enum class AppColorBehavior(
+    val color: Color
+) {
+    RERGULAR(color = primaryColor),
+    ERROR(color = errorColor),
+    DISBALED(color = disabledColor),
+    LAODING(color = disabledColor),
+    INFO(color = infoColor),
+    WARNING(color = warningColor),
+    TRASPARENT(color = transparent),
+}

@@ -1,10 +1,10 @@
-package com.paulo.componentlibray.presentation.atoms
+package com.paulo.componentlibray.presentation.atoms.buttons
 
 import androidx.compose.foundation.background
 import androidx.compose.material.IconButton
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
-import com.paulo.componentlibray.behaviors.AppColorBehavior
+import com.paulo.componentlibray.presentation.ui.theme.AppColorBehavior
 
 @Composable
 fun AppButtonIcon(

@@ -1,4 +1,4 @@
-package com.paulo.componentlibray.behaviors
+package com.paulo.componentlibray.presentation.atoms.text
 
 
 import androidx.compose.ui.graphics.Color

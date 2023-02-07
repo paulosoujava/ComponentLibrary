@@ -1,4 +1,4 @@
-package com.paulo.componentlibray.behaviors
+package com.paulo.componentlibray.presentation.atoms.cards
 
 
 import androidx.compose.material.ButtonElevation
